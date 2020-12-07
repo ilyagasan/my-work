@@ -1,0 +1,8 @@
+a {
+    color: rgb(212, 11, 11);
+}
+button {
+    font-weight: bold;
+    border: 1px solid rgb(199, 202, 0);
+    color : white; 
+}
