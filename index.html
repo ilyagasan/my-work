@@ -6,232 +6,201 @@
     <meta charset="UTF-8">
     <title>Lion Bank</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
 
     <div class="wrapper">
-        <div class="wrapper hihat">
-            <nav class="hihat--navh">
-                <a href="/">
-                    <img src="./avatarbank.png" alt="" class="avatarbank">
-                </a>
-                <div>
-                    <a href="" class="navh  linkhimain">Главная</a>
-                    <a href="" class="navh  linkhiservices">Услуги</a>
-                    <a href="" class="navh  linkhioutbilding">Отзывы</a>
-                </div>    
-            </nav>
-            <div class="hihat  contact">
-                <address class="contact-number">
-                    <a href="tel:+78007008990" class="number numer"></a>
-                </address>
-                <div сlass="contact  workinghowrs">
-                    <a href="" class="email:">Всегда на связи</a>
+        <section class="hero">
+            <div class="container">
+                <div class="header">
+                    <a href="/" class="logo">
+                        <img src="./avatarbank.png" alt="" class="avatarbank">
+                    </a>
+                    <nav class="menu">
+                        <ul calss="menu__list">
+                            <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+                            <li class="menu__item menu-activeitem"><a href="" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                    <address class="contact">
+                        <a href="tel:" class="contact__number">+79114364469</a>
+                        <div class="contact--when">всегда на связи</div>
+                    </address>
                 </div>
             </div>
-        </div>
-        <div class="wrapper--main">
-            <img src="./lion-header1.jpg" alt="" class="main  fon1">
-            <div class="slogan">
-                <h1 class="slogan  wish">Не отказывай себе в желании быть первым</h1>
-                <div class="slogan  character"> Банк с львиным характером</div>
-                <button class="slogan  buttonreadmore">
-                    <a href="" class="buttonreadmore  readmore">Подробнее</a>
-                </button>
-            </div>
-            <div class="main  proposals">
-                <h3 class="proposals  headline">Лучшие предложения банка</h3>
-                <div class="proposals  manuscript">
-                    <div class="manuscript  elements">
-                        <div class="elements  first">
-                            <img src="./1card.jpg" alt="" class="first--img">
-                            <div class="first  info">
-                                <div class="info  main">
-                                    <h4 сlass="main1  bais">Карта "Базовая"</h4>
-                                    <div class="info  cost">
-                                        <big class="cost  first">
-                                            60₽.-
-                                        </big>
-                                        <div class="cost  forwhat">
-                                            обслуживание карты
-                                        </div>
-                                    </div>
-                                    <div class="info cashback">
-                                        <big>
-                                            до 4%
-                                        </big>
-                                        <div class="cashback  where">
-                                            Кэшбэк за любимые покупки
-                                        </div>
-                                    </div>
-                                    <button class="info  button">
-                                        <a href="" class="button  readmore1">
-                                            Подробнее
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elements  second">
-                            <img src="./2card.jpg" alt="" class="second  img">
-                            <div class="second  info">
-                                <div class="info  main">
-                                    <h4 сlass="main  opt">Карта "Оптимум"</h4>
-                                    <div class="info  cost">
-                                        <big class="cost  second">
-                                            90₽.-
-                                        </big>
-                                        <div class="cost  forwhat2">
-                                            обслуживание карты
-                                        </div>
-                                    </div>
-                                    <div class="info cashback2">
-                                        <big>
-                                            до 5%
-                                        </big>
-                                        <div class="cashback  where2">
-                                            Кэшбэк за любимые покупки
-                                        </div>
-                                    </div>
-                                    <button class="info  button2">
-                                        <a href="" class="button2  readmore3">
-                                            Подробнее
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="elements  fird"></div>
-                        <img src="./3card.jpg" alt="" class="fird  img">
-                        <div class="fird  info">
-                            <div class="info  main3">
-                                <h4 сlass="main3  opt">Карта "Оптимум"</h4>
-                                <div class="info  cost3">
-                                    <big class="cost3  fird">
-                                        90₽.-
-                                    </big>
-                                    <div class="cost3  forwhat3">
-                                        обслуживание карты
-                                    </div>
-                                </div>
-                                <div class="info-cashback3">
-                                    <big>
-                                        до 5%
-                                    </big>
-                                    <div class="cashback  where3">
-                                        Кэшбэк за любимые покупки
-                                    </div>
-                                </div>
-                                <button class="info  button3">
-                                    <a href="" class="button3  readmore3">
-                                        Подробнее
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
+            <div class="wrapper--main">
+                <div class="container">
+                    <div class="slogan">
+                        <h1 class="slogan--wish">Не отказывай себе в желании быть первым</h1>
+                        <h4 class="slogan--character"> Банк с львиным характером</h4>
+                        <a href="" class="readmore">подробнее</a>
                     </div>
                 </div>
-            </div>
-            <div class="main  news">
-                <h4 class="news-header">Новости и акции</h4>
-                <div class="news  plase">
-                    <div class="plase  first">
-                        <img src="./comfort.jpg" alt="" class="first-foto">
-                        <div сlass="first  text">
-                            <p class="text  data1">
-                                Декабрь 2019
-                            </p>
-                            <h3 class="text  comfort">
-                                Удобое приложение
-                            </h3>
-                            <p class="text  coment">
-                                Хороший банк, отличные предложения
-                            </p>
-                        </div>
+                <div class="container">
+                    <div class="proposals">
+                        <h2 class="proposals__headline">Лучшие предложения банка</h2>
+                        <ul class="offers">
+                            <li class="offers__item offers__item--theme--gray">
+                                <div class="offers__header">
+                                    <img src="./1card.jpg" alt="" class="offers__headercard-img">
+                                </div>
+                                <div class="offers__content">
+                                    <h3 class="offers__title">Карта "Базовая"</h3>
+                                    <div class="offers__prices">
+                                        <div class="offers__price-cell">
+                                            <div class="offers__price">60 Р.-</div>
+                                            <div class="offers__price-desc">Обслуживание карты</div>
+                                        </div>
+                                        <div class="offers__price-cell">
+                                            <div class="offers__price">до 4 %</div>
+                                            <div class="offers__price-desc">Кэшбек за любимые покупки</div>
+                                        </div>
+                                    </div>
+                                    <div class="offers__conten__readmore-wrapper">
+                                        <a href="" class="readmore__black">подробнее</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="offers__item offers__item--theme--blue">
+                                <div class="offers__header">
+                                    <img src="./2card.jpg" alt="" class="offers__headercard-img">
+                                </div>
+                                <div class="offers__content">
+                                    <h3 class="offers__title">Карта "Оптима"</h3>
+                                    <div class="offers__prices">
+                                        <div class="offers__price-cell">
+                                            <div class="offers__price">90 Р.-</div>
+                                            <div class="offers__price-desc">Обслуживание карты</div>
+                                        </div>
+                                        <div class="offers__price-cell">
+                                            <div class="offers__price">до 5 %</div>
+                                            <div class="offers__price-desc">Кэшбек за любимые покупки</div>
+                                        </div>
+                                    </div>
+                                    <div class="offers__conten__readmore-wrapper">
+                                        <a href="" class="readmore">подробнее</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="offers__item offers__item--theme--gold">
+                                <div class="offers__header">
+                                    <img src="./3card.jpg" alt="" class="offers__headercard-img">
+                                </div>
+                                <div class="offers__content">
+                                    <h3 class="offers__title">Карта "Платинум"</h3>
+                                    <div class="offers__prices">
+                                        <div class="offers__price-cell">
+                                            <div class="offers__price">490 Р.-</div>
+                                            <div class="offers__price-desc">Обслуживание карты</div>
+                                        </div>
+                                        <div class="offers__price-cell">
+                                            <div class="offers__price">до 6 %</div>
+                                            <div class="offers__price-desc">Кэшбек за любимые покупки</div>
+                                        </div>
+                                    </div>
+                                    <div class="offers__conten__readmore-wrapper">
+                                        <a href="" class="readmore__black">подробнее</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-
-                    <div class="plase  second">
-                        <img src="./collect.jpg" alt="" class="second-foto">
-                        <div сlass="second  text2">
-                            <p class="text2  data2">
-                                Декабрь 2019
-                            </p>
-                            <h3 class="text2  comfort">
-                                Копите на поездку? Откройте счет!
-                            </h3>
-                            <p class="text2  coment">
-                                Хороший банк, отличные предложения
-                            </p>
-                        </div>
-                    </div>
-                    <p class=""></p>
-                    <div class="plase  page">
-                        <ul сlass="page  manuscript">
-                            <li class="manuscript  li"><a href="" class="manuscript  1li">1 </a> </li>
-                            <li class="manuscript  li"><a href="" class="manuscript  2li">2 </a> </li>
-                            <li class="manuscript  li"><a href="" class="manuscript  3li">3 </a> </li>
-                            <li class="manuscript  li"><a href="" class="manuscript  4li">4 </a> </li>
-                            <li class="manuscript  li"><a href="" class="manuscript  5li">5 </a> </li>
-                            <li class="manuscript  li"><a href="" class="manuscript  6li">6 </a> </li>
-                            <li class="manuscript  li"><a href="" class="manuscript  7li">7 </a> </li>
+                    <div class="main__news">
+                        <h2 class="news__header">Новости и акции</h2>
+                        <ul class="news__plase">
+                            <li class="plase__info">
+                                <img src="./comfort.jpg" alt="мобильное приложение" class="news__cover">
+                                <div сlass="plase__info-text">
+                                    <time class="text__data">
+                                        Декабрь 2019
+                                    </time>
+                                    <div class="text__title__info">
+                                        Удобое приложение
+                                    </div>
+                                    <div class="text__coment">
+                                        Хороший банк, отличные предложения
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="plase__info">
+                                <img src="./collect.jpg" alt="Мечта" class="news__cover">
+                                <div сlass="plase__info-text">
+                                    <time class="text__data">
+                                        Декабрь 2019
+                                    </time>
+                                    <div class="text__title__info">
+                                        Копите деньги на поездку? Откройте сберегательный счет.
+                                    </div>
+                                    <div class="text__coment">
+                                        Хороший банк, отличные предложения
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div calss="main  abotbank">
-                <img src="./chess.jpg" alt="" class="aboutbank  chers">
-                <img src="./aboutbank.jpg" alt="" calss="abotbank  fon">
-                <div class="abotbank  textplase">
-                    <h3 class="textplase  header">О банке</h3>
-                    <p class="text  main">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam praesentium modi libero quod. Reprehenderit minus, obcaecati vitae voluptates tempore totam consequatur facilis iste doloribus, vel in quam iusto magnam.
-                    </p>
-                    <button class="textplace  button">
-                        <a href="" class="button  readmoreabot">Подробнее</a>
-                    </button>
+                <div calss="main--abotbank">
+                    <img src="./chess.jpg" alt="" class="aboutbank  chers">
+                    <div class="abotbank  textplase">
+                        <h3 class="textplase  header">О банке</h3>
+                        <p class="text  main">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam praesentium modi
+                            libero quod. Reprehenderit minus, obcaecati vitae voluptates tempore totam consequatur
+                            facilis iste doloribus, vel in quam iusto magnam.
+                        </p>
+                        <button class="textplace  button">
+                            <a href="" class="button  readmoreabot">подробнее</a>
+                        </button>
 
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <footer class="fotter  down">
-            <nav class="down  nav">
-                <a href="" class="nav  avtar">
-                    <img src="./avatarbank.png" alt="" сlass="avatar  homeweb">
+    </div>
+    <footer class="fotter--down">
+        <nav class="down  nav">
+            <a href="" class="nav  avtar">
+                <img src="./avatarbank.png" alt="" сlass="avatar  homeweb">
+            </a>
+        </nav>
+        <nav class="down  buttons">
+            <div class="buttons  main">
+                <button class="buttons  home">
+                    <a href="" class="home  main">Главная</a>
+                </button>
+                <button class="buttons  servives">
+                    <a href="" class="servives  down">Услуги</a>
+                </button>
+                <button class="button  coments">
+                    <a href="" class="coments  down">Отзывы</a>
+                </button>
+            </div>
+            <div class="buttons  soshialmedia">
+                <a href="" class="soshialmedia  tg">
+                    <img src="./telegeram.jpg" alt="">
                 </a>
-            </nav>
-            <nav class="down  buttons">
-                <div class="buttons  main">
-                    <button class="buttons  home">
-                        <a href="" class="home  main">Главная</a>
-                    </button>
-                    <button class="buttons  servives">
-                        <a href="" class="servives  down">Услуги</a>
-                    </button>
-                    <button class="button  coments">
-                        <a href="" class="coments  down">Отзывы</a>
-                    </button>
-                </div>
-                <div class="buttons  soshialmedia">
-                    <a href="" class="soshialmedia  tg">
-                        <img src="./telegeram.jpg" alt="">
-                    </a>
-                    <a href="" class="soshialmedia  face">
-                        <img src="./facebook.png" alt="">
-                    </a>
-                    <a href="" class="soshialmedia  vk">
-                        <img src="./vk.png" alt="">
-                    </a>
-                    <a href="" class="soshialmedia  in">
-                        <img src="./instagram.jpg" alt="">
-                    </a>
-                </div>
-            </nav>
-        </footer>
+                <a href="" class="soshialmedia  face">
+                    <img src="./facebook.png" alt="">
+                </a>
+                <a href="" class="soshialmedia  vk">
+                    <img src="./vk.png" alt="">
+                </a>
+                <a href="" class="soshialmedia  in">
+                    <img src="./instagram.jpg" alt="">
+                </a>
+            </div>
+        </nav>
+        <address class=":tel">
+            89122238450
+        </address>
+    </footer>
+    </section>
     </div>
 </body>
+
 </html>
